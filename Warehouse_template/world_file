@@ -1,0 +1,466 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/traffic/protos/TrafficCone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/obstacles/protos/OilBarrel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/lights/protos/FloorLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/plants/protos/PottedTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/lights/protos/DoubleFluorescentLamp.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/lights/protos/ConstructionLamp.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/conveyors/protos/ConveyorBelt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/fire_extinguisher/protos/FireExtinguisher.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/PlasticCrate.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/pallet/protos/WoodenPalletStack.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/living_room_furniture/protos/Armchair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/forklift/protos/Forklift.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/television/protos/Television.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/humans/pedestrian/protos/Pedestrian.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/chairs/protos/OfficeChair.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.06399676070281522 0.9771755303779268 0.202564551316769 0.6254438128877652
+  position -26.362489991462926 -5.956030223749492 17.621178897947626
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -0.13 0
+  floorSize 20 20
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+OfficeChair {
+  translation 6.62 6.86 0
+  rotation 0 0 1 -1.5707953071795862
+}
+Pedestrian {
+  translation 5.76735 4.51604 1.27
+  rotation 0 0 1 -1.3089953071795861
+}
+WoodenPalletStack {
+  translation 4.43743 -7.59142 0
+  rotation 0 0 1 2.0944
+}
+WoodenPalletStack {
+  translation 2.82622 -7.46584 0
+  rotation 0 0 -1 -0.7854053071795866
+  name "wooden pallet stack(1)"
+}
+PlasticCrate {
+  translation 0.41 -7.13 0
+  rotation 0 0 1 -0.261795307179586
+}
+PlasticCrate {
+  translation 0.41 -7.98 0
+  name "plastic crate(2)"
+}
+PlasticCrate {
+  translation 1.27 -7.13 0
+  name "plastic crate(1)"
+}
+FireExtinguisher {
+  translation 2.73 4.5 0
+}
+ConveyorBelt {
+  translation 4.32 0 0
+  size 7 0.5 0.6
+}
+DoubleFluorescentLamp {
+  translation 6.68 2.65 2.02
+  rotation 0.5773509358554485 -0.5773489358556708 0.5773509358554485 2.09441
+  name "double fuorescent lamp(2)"
+}
+ConstructionLamp {
+  translation 7.47569 2.63368 0.21
+  rotation 0 0 1 -1.5707953071795862
+  name "construction lamp(6)"
+}
+ConstructionLamp {
+  translation 6.76569 2.63368 0.21
+  rotation 0 0 1 -1.5707953071795862
+  name "construction lamp(5)"
+}
+ConstructionLamp {
+  translation 6.05569 2.63368 0.21
+  rotation 0 0 1 -1.5707953071795862
+  name "construction lamp(4)"
+}
+ConstructionLamp {
+  translation 5.41569 2.63368 0.21
+  rotation 0 0 1 -1.5707953071795862
+  name "construction lamp(3)"
+}
+ConstructionLamp {
+  translation 4.81569 2.63368 0.21
+  rotation 0 0 1 -1.5707953071795862
+  name "construction lamp(2)"
+}
+ConstructionLamp {
+  translation 3.57569 2.63368 0.21
+  rotation 0 0 1 -1.5707953071795862
+}
+ConstructionLamp {
+  translation 4.23569 2.63368 0.21
+  rotation 0 0 1 -1.5707953071795862
+  name "construction lamp(1)"
+}
+DoubleFluorescentLamp {
+  translation 4.04 2.65 2.02
+  rotation 0.5773509358554485 -0.5773489358556708 0.5773509358554485 2.09441
+}
+DoubleFluorescentLamp {
+  translation 5.41 2.65 2.02
+  rotation 0.5773509358554485 -0.5773489358556708 0.5773509358554485 2.09441
+  name "double fuorescent lamp(1)"
+}
+PottedTree {
+  translation 2.47 1.96 0
+  name "potted tree(3)"
+}
+PottedTree {
+  translation 6.44 1.96 0
+  name "potted tree(5)"
+}
+PottedTree {
+  translation 4.32 1.8 0
+  name "potted tree(4)"
+}
+PottedTree {
+  translation 2.36 3.73 0
+  name "potted tree(2)"
+}
+Wall {
+  translation 3.02 3.14 0
+  name "wall(4)"
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 3.62 2.74 0
+  rotation 0 0 1 1.5708
+  name "wall(5)"
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 5.62 2.74 0
+  rotation 0 0 1 1.5708
+  name "wall(7)"
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 6.62 2.74 0
+  rotation 0 0 1 1.5708
+  name "wall(8)"
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 4.62 2.74 0
+  rotation 0 0 1 1.5708
+  name "wall(6)"
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 7.62 2.74 0
+  rotation 0 0 1 1.5708
+  name "wall(9)"
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 3.02 4.14 0
+  name "wall(3)"
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 3.02 5.14 0
+  name "wall(2)"
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+PottedTree {
+  translation 2.36 7.25 0
+}
+PottedTree {
+  translation 2.36 5.59 0
+  name "potted tree(1)"
+}
+FloorLight {
+  translation -7.43 9.41 0
+  name "floor light(25)"
+}
+FloorLight {
+  translation 9.29 5.83 0
+  name "floor light(15)"
+}
+FloorLight {
+  translation 9.29 -1.97 0
+  name "floor light(12)"
+}
+FloorLight {
+  translation 1.61 -9.62 0
+  name "floor light(5)"
+}
+FloorLight {
+  translation -2.54 -9.62 0
+  name "floor light(4)"
+}
+WoodenBox {
+  translation -9.15 -7.03 0.3
+  name "wooden box(5)"
+}
+FloorLight {
+  translation 9.29 -9.62 0
+  name "floor light(9)"
+}
+FloorLight {
+  translation 9.14 9.2 0
+  name "floor light(21)"
+}
+FloorLight {
+  translation -0.8 9.2 0
+  name "floor light(22)"
+}
+FloorLight {
+  translation -3.88 9.2 0
+  name "floor light(23)"
+}
+FloorLight {
+  translation 2.47 9.2 0
+  name "floor light(20)"
+}
+FloorLight {
+  translation 6.01 9.2 0
+  name "floor light(18)"
+}
+FloorLight {
+  translation 9.29 2 0
+  name "floor light(14)"
+}
+FloorLight {
+  translation 9.29 -6 0
+  name "floor light(11)"
+}
+FloorLight {
+  translation 5.42 -9.62 0
+  name "floor light(7)"
+}
+FloorLight {
+  translation -9.44 -9.62 0
+  name "floor light(1)"
+}
+FloorLight {
+  translation -6.15 -9.62 0
+  name "floor light(2)"
+}
+WoodenBox {
+  translation -8.27 -7.6 0.3
+  rotation 0 0 1 0.261799
+  name "wooden box(4)"
+}
+OilBarrel {
+  translation -7.22 7.48 0.44
+  name "oil barrel(11)"
+}
+OilBarrel {
+  translation -7.23 8.19 0.44
+  name "oil barrel(10)"
+}
+OilBarrel {
+  translation -6.47 8.19 0.44
+  name "oil barrel(12)"
+}
+OilBarrel {
+  translation -6.54 8.86 0.44
+  name "oil barrel(9)"
+}
+OilBarrel {
+  translation -7.27 8.86 0.44
+  name "oil barrel(8)"
+}
+OilBarrel {
+  translation -7.54762 6.545 0.31
+  rotation 0.7745965212991105 -0.44721372362178063 0.44721372362178063 -1.823475307179586
+  name "oil barrel(7)"
+}
+OilBarrel {
+  translation -5.58 8.51 0.31
+  rotation -0.577349935856137 0.5773509358560258 -0.577349935856137 2.09439
+  name "oil barrel(13)"
+}
+OilBarrel {
+  translation -7.92 7.48 0.44
+  name "oil barrel(6)"
+}
+OilBarrel {
+  translation -7.92 8.86 0.44
+  name "oil barrel(4)"
+}
+OilBarrel {
+  translation -7.92 8.2 0.44
+  name "oil barrel(5)"
+}
+OilBarrel {
+  translation -8.6 8.86 0.44
+}
+OilBarrel {
+  translation -8.6 8.86 1.35
+  name "oil barrel(14)"
+}
+OilBarrel {
+  translation -8.6 6.89 0.44
+  name "oil barrel(3)"
+}
+OilBarrel {
+  translation -8.6 8.21 0.44
+  name "oil barrel(1)"
+}
+OilBarrel {
+  translation -8.6 8.21 1.36
+  name "oil barrel(15)"
+}
+OilBarrel {
+  translation -8.6 7.55 0.44
+  name "oil barrel(2)"
+}
+TrafficCone {
+  translation -8.85 5.23 0
+}
+TrafficCone {
+  translation -7.075 5.62226 0
+  rotation 0 0 1 0.523599
+  name "traffic cone(1)"
+}
+TrafficCone {
+  translation -5.68964 6.50828 0
+  rotation 0 0 1 0.785398
+  name "traffic cone(2)"
+}
+TrafficCone {
+  translation 6.74567 -5.80703 0
+  rotation 0 0 1 3.14159
+  name "traffic cone(4)"
+}
+TrafficCone {
+  translation 6.63567 -7.64703 0
+  rotation 0 0 1 3.14159
+  name "traffic cone(7)"
+}
+TrafficCone {
+  translation 6.58567 -9.34703 0
+  rotation 0 0 1 3.14159
+  name "traffic cone(6)"
+}
+TrafficCone {
+  translation 8.43567 -5.80703 0
+  rotation 0 0 1 3.14159
+  name "traffic cone(5)"
+}
+TrafficCone {
+  translation -4.46643 7.73149 0
+  rotation 0 0 1 1.0472
+  name "traffic cone(3)"
+}
+WoodenBox {
+  translation 0 7.56 0.3
+}
+WoodenBox {
+  translation -8.27 -6.55 0.3
+  name "wooden box(2)"
+}
+WoodenBox {
+  translation -7.245 -6.99166 0.3
+  rotation 0 0 1 -0.523595307179586
+  name "wooden box(3)"
+}
+WoodenBox {
+  translation 0.78 6.86 0.3
+  rotation 0 0 1 -0.523595307179586
+  name "wooden box(1)"
+}
+Wall {
+  translation 3.02 7.14 0
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 3.02 6.14 0
+  name "wall(1)"
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Armchair {
+  translation 4.11 6.94 0
+}
+Armchair {
+  translation 4.11 3.95 0
+  name "armchair(2)"
+}
+Armchair {
+  translation 4.11 5.52 0
+  name "armchair(1)"
+}
+Forklift {
+  translation 7.87 -7.72 0.81
+  rotation 0 0 1 1.5708
+  enablePhysics FALSE
+}
+Television {
+  translation 6.65 2.89 1.5
+  rotation 0 0 1 1.5708
+}
